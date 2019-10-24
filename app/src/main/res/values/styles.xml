@@ -34,6 +34,22 @@
     <style name="RatingBar" parent="Theme.AppCompat">
         <item name="colorControlNormal">@color/colorTex</item>
         <item name="colorControlActivated">@color/color_star</item>
+    </style>
 
+    <style name="SplashscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splashscreen</item>
+    </style>
+
+    <style name="itemTextAppearanceActive">
+        <item name="android:textSize">9sp</item>
+    </style>
+    <style name="itemTextAppearanceInactive">
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="ratingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@menu/ratingstarts</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
     </style>
 </resources>

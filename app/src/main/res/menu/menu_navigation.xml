@@ -11,7 +11,7 @@
         android:id="@+id/button_category"
         android:enabled="true"
         android:icon="@drawable/ic_payment_black_24dp"
-        android:title="@string/title_payment"
+        android:title="Phân loại"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/button_rate"
@@ -29,6 +29,6 @@
         android:id="@+id/button_contact"
         android:enabled="true"
         android:icon="@drawable/ic_perm_contact_calendar_black_24dp"
-        android:title="@string/title_contact"
+        android:title="Tôi"
         app:showAsAction="ifRoom" />
 </menu>

@@ -56,6 +56,8 @@
         app:itemIconSize="32dp"
         app:itemIconTint="@android:color/white"
         app:itemTextColor="@android:color/white"
-        app:labelVisibilityMode="unlabeled"
+        app:itemTextAppearanceActive="@style/itemTextAppearanceActive"
+        app:itemTextAppearanceInactive="@style/itemTextAppearanceActive"
+        app:labelVisibilityMode="labeled"
         app:menu="@menu/menu_navigation" />
 </RelativeLayout>

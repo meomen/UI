@@ -5,9 +5,11 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,6 +18,7 @@ import com.constore.customfonts.MyTextView;
 import com.constore.layout.ChildAnimationExample;
 import com.constore.layout.SliderLayout;
 import com.constore.model.bean.Beanclass;
+import com.constore.model.bean.Product;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
 
@@ -34,6 +37,8 @@ public class ProductDetailActivity extends AppCompatActivity implements BaseSlid
     LinearLayout linear1, linear2, linear3, linear4, linear5, linear6;
 
     TextView discription3, discription2, discription1;
+    RatingBar mRatingBar;
+    Beanclass dataproduct;
 
 
     @Override
@@ -51,6 +56,7 @@ public class ProductDetailActivity extends AppCompatActivity implements BaseSlid
         est = findViewById(R.id.est);
         itemname = findViewById(R.id.itemname);
         price = findViewById(R.id.price);
+        mRatingBar = (RatingBar) findViewById(R.id.rating) ;
         linear1 = (LinearLayout) findViewById(R.id.linear1);
         linear2 = (LinearLayout) findViewById(R.id.linear2);
         discription1 = (TextView) findViewById(R.id.discription1);
@@ -62,6 +68,8 @@ public class ProductDetailActivity extends AppCompatActivity implements BaseSlid
                 Toast.makeText(v.getContext(), "Đã thêm vào giỏ hàng", Toast.LENGTH_SHORT).show();
             }
         });
+
+        dataproduct = product;
         /*btnBack = findViewById(R.id.btnBack);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,6 +77,18 @@ public class ProductDetailActivity extends AppCompatActivity implements BaseSlid
                 finish();
             }
         });*/
+
+        mRatingBar.setRating(4);
+        mRatingBar.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                Intent intent = new Intent(ProductDetailActivity.this,MyRateActivity.class);
+                intent.putExtra("data",dataproduct);
+                startActivity(intent);
+                return false;
+            }
+
+        });
 
         imgChat = findViewById(R.id.img_chat);
         imgChat.setOnClickListener(new View.OnClickListener() {
@@ -245,5 +265,7 @@ public class ProductDetailActivity extends AppCompatActivity implements BaseSlid
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
 

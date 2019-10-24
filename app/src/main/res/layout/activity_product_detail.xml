@@ -46,16 +46,18 @@
                 >
 
 
-                <com.constore.customfonts.MyTextView
-                    android:id="@+id/est"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_weight="1"
-                    android:text="LÀM ĐẸP"
-                    android:textColor="@color/colorSub"
-                    android:textSize="14dp" />
+                    <com.constore.customfonts.MyTextView
+                        android:id="@+id/est"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:text="LÀM ĐẸP"
+                        android:textColor="@color/colorSub"
+                        android:textSize="14dp" />
+
+
 
 
                 <!--*********wear- price**********-->
@@ -67,15 +69,46 @@
                     android:padding="16dp">
 
 
-                    <com.constore.customfonts.MyTextView
-
-                        android:id="@+id/itemname"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Sữa tắm"
-                        android:textColor="@color/colorTex"
-                        android:textSize="17dp" />
+                        android:orientation="horizontal">
+                        <com.constore.customfonts.MyTextView
+
+                            android:id="@+id/itemname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sữa tắm"
+                            android:textColor="@color/colorTex"
+                            android:textSize="17dp" />
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal">
+
+                           <RatingBar
+                               android:id="@+id/rating"
+                               style="@style/ratingBar"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal|right"
+                               android:isIndicator="true"
+                               android:numStars="5"
+                               android:stepSize="0.5" />
+
+                           <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textColor="#f0932b"
+                              android:text="4.0"
+                              android:layout_weight="1"
+                               android:paddingLeft="2dp"
+                               android:textSize="15dip"
+                              android:gravity="center_horizontal" />
+                       </LinearLayout>
+
+                    </LinearLayout>
 
                     <com.constore.customfonts.MyTextView
                         android:id="@+id/price"

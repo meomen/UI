@@ -19,10 +19,11 @@ public class MyRateActivity extends AppCompatActivity {
     private ArrayList<Beanclass> beanclassArrayList;
     private RateRecycleViewAdapter recyclerViewAdapter;
 
-    private int[] IMAGEgrid = {R.drawable.grooming7, R.drawable.grooming3};
-    private String[] TITLeGgrid = {"Túi du lịch", "Dao cạo râu gỗ"};
-    private String[] DIscriptiongrid = {"Min 30% off", "Min 70% off"};
-    private String[] Dategrid = {"200,000đ", "200,000đ"};
+    private ArrayList<Integer> IMAGEgrid = new ArrayList<Integer>();
+    private ArrayList<String> TITLeGgrid = new ArrayList<String>();
+    private ArrayList<String>  DIscriptiongrid = new ArrayList<String>();
+    private ArrayList<String> Dategrid = new ArrayList<String>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,10 +36,20 @@ public class MyRateActivity extends AppCompatActivity {
         getSupportActionBar().setHomeAsUpIndicator(newdrawable);
 
         beanclassArrayList = new ArrayList<Beanclass>();
+        IMAGEgrid.add(R.drawable.grooming7);
+        IMAGEgrid.add(R.drawable.grooming3);
+        TITLeGgrid.add("Túi du lịch");
+        TITLeGgrid.add("Dao cạo râu gỗ");
+        DIscriptiongrid.add("Min 30% off");
+        DIscriptiongrid.add( "Min 70% off");
+        Dategrid.add("200,000đ");
+        Dategrid.add("200,000đ");
 
-        for (int i = 0; i < IMAGEgrid.length; i++) {
+        getdataIntent();
 
-            Beanclass beanclass = new Beanclass(IMAGEgrid[i], TITLeGgrid[i], DIscriptiongrid[i], Dategrid[i]);
+        for (int i = 0; i < IMAGEgrid.size(); i++) {
+
+            Beanclass beanclass = new Beanclass(IMAGEgrid.get(i), TITLeGgrid.get(i), DIscriptiongrid.get(i), Dategrid.get(i));
             beanclassArrayList.add(beanclass);
         }
 
@@ -61,5 +72,18 @@ public class MyRateActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void getdataIntent() {
+        Beanclass data = (Beanclass) getIntent().getSerializableExtra("data");
+        if(data == null) {
+            return;
+        }
+        else {
+            IMAGEgrid.add(0,data.getImage1());
+            TITLeGgrid.add(0,data.getTitle1());
+            DIscriptiongrid.add(0,data.getDiscription1());
+            Dategrid.add(0,data.getDate1());
+        }
     }
 }

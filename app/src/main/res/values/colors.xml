@@ -14,4 +14,6 @@
     <color name="red">#EA4335</color>
     <color name="light_gray">#F1F1F1</color>
     <color name="color_star">#FFEB00</color>
+
+    <color name="color_text_item">#00b894</color>
 </resources>

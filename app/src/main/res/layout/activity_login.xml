@@ -111,6 +111,7 @@
                 android:text="Hoặc đăng nhập với"
                 android:textColor="#dacdcd" />
 
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -118,11 +119,11 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
+
                 <com.google.android.gms.common.SignInButton
                     android:id="@+id/google_sign_in_button"
                     android:layout_width="match_parent"
-                    android:layout_height="35dp" />
-
+                    android:layout_height="38dp" />
 
                 <com.facebook.login.widget.LoginButton
                     android:id="@+id/facebook_sign_in_button"
@@ -169,7 +170,6 @@
                         android:background="@drawable/googleplus" />
                 </LinearLayout>-->
             </LinearLayout>
-
 
             <LinearLayout
                 android:layout_width="match_parent"

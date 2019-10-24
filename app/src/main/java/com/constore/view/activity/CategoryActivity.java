@@ -28,8 +28,8 @@ public class CategoryActivity extends AppCompatActivity implements BaseSliderVie
         getSupportActionBar().setHomeAsUpIndicator(newdrawable);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
-        tabLayout.addTab(tabLayout.newTab().setText("ĐỒNG HỒ"));
         tabLayout.addTab(tabLayout.newTab().setText("XEM TẤT CẢ"));
+        tabLayout.addTab(tabLayout.newTab().setText("ĐỒNG HỒ"));
         tabLayout.addTab(tabLayout.newTab().setText("QUẦN ÁO"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 

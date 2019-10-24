@@ -42,7 +42,7 @@
                     android:layout_height="match_parent"
                     android:maxLines="2"
                     android:text="Min 70% off"
-                    android:textColor="@color/colorblue"
+                    android:textColor="@color/color_text_item"
 
 
                     android:textSize="16dp" />

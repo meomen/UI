@@ -29,10 +29,11 @@ public class TabFragment1 extends Fragment {
     private GridviewAdapter gridviewAdapter;
     private View view;
 
-    private int[] IMAGEgrid = {R.drawable.w1, R.drawable.w2, R.drawable.w3, R.drawable.w4, R.drawable.w5, R.drawable.w1,};
-    private String[] TITLeGgrid = {"Đồng Hồ", "Đồng Hồ", "Đồng Hồ", "Đồng Hồ", "Đồng Hồ", "Đồng Hồ"};
+    private int[] IMAGEgrid = {R.drawable.pik1, R.drawable.pik2, R.drawable.pik3, R.drawable.pik4, R.drawable.pik1, R.drawable.pik2,};
+    private String[] TITLeGgrid = {"Đồng hồ", "Thắt lưng", "Kính râm", "Nước hoa", "Đồng hồ", "Thắt lưng"};
     private String[] DIscriptiongrid = {"Min 70% off", "Min 50% off", "Min 45% off", "Min 60% off", "Min 70% off", "Min 50% off"};
-    private String[] Dategrid = {"1,000,000đ", "1,000,000đ", "1,000,000đ", "1,000,000đ", "1,000,000đ", "1,000,000đ"};
+    private String[] Dategrid = {"1,000,000đ", "350,000đ", "200,000đ", "1,500,000đ", "1,000,000Đ", "350,000đ"};
+
 
 
     @Override
