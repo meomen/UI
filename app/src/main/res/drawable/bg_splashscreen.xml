@@ -5,6 +5,8 @@
         android:drawable="@color/colorWhite"/>
     <item
         android:gravity="center"
+        android:width="200dp"
+        android:height="200dp"
         android:drawable="@drawable/logo">
     </item>
 
