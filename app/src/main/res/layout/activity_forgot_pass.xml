@@ -83,7 +83,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:background="@color/colorLink"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
                 android:text="Xác nhận" />
         </LinearLayout>
     </ScrollView>

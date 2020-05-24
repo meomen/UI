@@ -146,6 +146,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         });
 
         mGoogleSignInButton = findViewById(R.id.google_sign_in_button);
+        googleBtnUi();
         mGoogleSignInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -533,6 +534,18 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         protected void onCancelled() {
             mAuthTask = null;
             showProgress(false);
+        }
+    }
+    private void googleBtnUi() {
+        SignInButton googleButton = (SignInButton) findViewById(R.id.google_sign_in_button);
+        for (int i = 0; i < googleButton.getChildCount(); i++) {
+            View v = googleButton.getChildAt(i);
+            if (v instanceof TextView) {
+                TextView tv = (TextView) v;
+                tv.setSingleLine(true);
+                tv.setPadding(0, 0, 10, 0);
+                return;
+            }
         }
     }
 

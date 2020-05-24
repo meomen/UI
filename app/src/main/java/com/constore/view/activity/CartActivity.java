@@ -23,10 +23,10 @@ public class CartActivity extends AppCompatActivity {
     private ArrayList<Beanclass> beanclassArrayList;
     private RecyclerViewAdapter recyclerViewAdapter;
 
-    private int[] IMAGEgrid = {R.drawable.grooming3, R.drawable.grooming6, R.drawable.grooming7, R.drawable.grooming1};
-    private String[] TITLeGgrid = {"Dao cạo râu gỗ","Cốc sứ", "Túi du lịch", "Nước hoa"};
-    private String[] DIscriptiongrid = {"Min 70% off", "Min 50% off", "Min 45% off", "Min 60% off"};
-    private String[] Dategrid = {"200,000đ","350,000đ", "200,000đ", "1,500,000đ"};
+    private int[] IMAGEgrid = {R.drawable.q1, R.drawable.q2, R.drawable.pik1, R.drawable.w3};
+    private String[] TITLeGgrid = {"Khẩu trang","Khăn tắm", "Áo phông unisex(trắng)", "Quần dài nâu"};
+    private String[] DIscriptiongrid = {"Min 1% off", "Min 2% off", "Min 5% off", "Min 4% off"};
+    private String[] Dategrid = {"69,000đ","149,000đ", "249,000đ", "599,000"};
     MyTextView buynow;
     TextView total;
 

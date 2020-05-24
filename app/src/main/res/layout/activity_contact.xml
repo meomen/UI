@@ -40,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="0.8"
-                    android:text="Vũ Đức Minh"
+                    android:text="Nguyễn Thế Nam"
                     android:textColor="@color/light_gray"
                     android:textSize="20sp" />
 

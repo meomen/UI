@@ -39,6 +39,7 @@
                 android:src="@drawable/logo"
                 app:civ_border_color="#00ffffff"
                 android:layout_gravity="center"/>
+
             <com.constore.customfonts.MyTextView
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
@@ -46,7 +47,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="cursive"
                 android:gravity="center"
-                android:text="Constore"
+                android:text="ChenShop"
                 android:textSize="100px" />
 
             <android.support.design.widget.TextInputLayout
@@ -88,7 +89,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:background="@color/colorLink"
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
 
                 android:text="Đăng nhập" />
 

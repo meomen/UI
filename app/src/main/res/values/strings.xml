@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Constore</string>
+    <string name="app_name">ChenShop</string>
     <string name="title_activity_login">Sign in</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -18,7 +18,7 @@
         completions."
     </string>
     <string name="title_activity_search">SearchActivity</string>
-    <string name="title_home">Constore</string>
+    <string name="title_home">ChopShop</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Thông báo</string>
     <string name="title_activity_rate">Rate</string>

@@ -38,10 +38,10 @@ public class HomeActivity extends AppCompatActivity implements BaseSliderView.On
     private ExpandableHeightGridView gridview;
     private ArrayList<Beanclass> beanclassArrayList;
     private GridviewAdapter gridviewAdapter;
-    private int[] IMAGEgrid = {R.drawable.grooming3, R.drawable.grooming6, R.drawable.grooming7, R.drawable.grooming1, R.drawable.w1, R.drawable.w2, R.drawable.w3, R.drawable.w4, R.drawable.w5, R.drawable.w1};
-    private String[] TITLeGgrid = {"Dao cạo râu gỗ", "Cốc sứ", "Túi du lịch", "Nước hoa", "Đồng Hồ", "Đồng Hồ", "Đồng Hồ", "Đồng Hồ", "Đồng Hồ", "Đồng Hồ"};
-    private String[] DIscriptiongrid = {"Min 70% off", "Min 50% off", "Min 45% off", "Min 60% off", "Min 70% off", "Min 50% off", "Min 45% off", "Min 60% off", "Min 70% off", "Min 50% off"};
-    private String[] Dategrid = {"200,000đ", "350,000đ", "200,000đ", "1,500,000đ", "1,000,000Đ", "350,000đ", "1,000,000đ", "1,000,000đ", "1,000,000đ", "1,000,000đ", "1,000,000đ", "1,000,000đ"};
+    private int[] IMAGEgrid = {R.drawable.pik1, R.drawable.w1, R.drawable.w2, R.drawable.pik2, R.drawable.q1, R.drawable.q2, R.drawable.q3, R.drawable.w3, R.drawable.q6, R.drawable.pik5};
+    private String[] TITLeGgrid = {"Áo phông unisex(trắng)", "Quần soóc bò", "Quần soóc vải(xanh)", "Áo phông unisex(đen)", "Khẩu trang", "Khăn tắm", "Combo tất", "Quần dài nâu", "Thắt lưng nữ", "Áo phông nữ(hồng)"};
+    private String[] DIscriptiongrid = {"Min 5% off", "Min 2% off", "Min 2% off", "Min 5% off", "Min 1% off", "Min 2% off", "Min 5% off", "Min 5% off", "Min 5% off", "Min 5% off"};
+    private String[] Dategrid = {"249,000đ", "499,000đ", "349,000đ", "249,000đ", "69,000Đ", "149,000đ", "100,000đ", "549,000đ", "350,000đ", "249,000đ"};
 
     boolean doubleBackToExitPressedOnce = false;
 

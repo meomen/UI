@@ -29,10 +29,10 @@ public class TabFragment1 extends Fragment {
     private GridviewAdapter gridviewAdapter;
     private View view;
 
-    private int[] IMAGEgrid = {R.drawable.pik1, R.drawable.pik2, R.drawable.pik3, R.drawable.pik4, R.drawable.pik1, R.drawable.pik2,};
-    private String[] TITLeGgrid = {"Đồng hồ", "Thắt lưng", "Kính râm", "Nước hoa", "Đồng hồ", "Thắt lưng"};
-    private String[] DIscriptiongrid = {"Min 70% off", "Min 50% off", "Min 45% off", "Min 60% off", "Min 70% off", "Min 50% off"};
-    private String[] Dategrid = {"1,000,000đ", "350,000đ", "200,000đ", "1,500,000đ", "1,000,000Đ", "350,000đ"};
+    private int[] IMAGEgrid = {R.drawable.pik1, R.drawable.pik2, R.drawable.pik3, R.drawable.pik4, R.drawable.pik5, R.drawable.pik6};
+    private String[] TITLeGgrid = {"Áo phông unisex(trắng)", "Áo phông unisex(đen)", "Váy liền nữ", "Áo phông nữ(hồng)", "Áo phông nữ(hồng)", "Áo sơ mi nữ"};
+    private String[] DIscriptiongrid = {"Min 5% off", "Min 5% off", "Min 3% off", "Min 4% off", "Min 5% off", "Min 5% off"};
+    private String[] Dategrid = {"249,000đ", "249,000đ", "549,000đ", "245,000đ", "245,000đ", "299,000đ"};
 
 
 
