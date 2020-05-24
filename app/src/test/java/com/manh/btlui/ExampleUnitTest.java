@@ -1,7 +1,7 @@
 package com.manh.btlui;
 
-import com.constore.model.bean.Bank;
-import com.constore.model.db.Table;
+import com.chenshop.model.bean.Bank;
+import com.chenshop.model.db.Table;
 
 import org.junit.Test;
 

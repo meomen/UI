@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.constore.view.activity.CategoryActivity">
+    tools:context="com.chenshop.view.activity.CategoryActivity">
 
-    <com.constore.layout.CustomTabLayout
+    <com.chenshop.layout.CustomTabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"

@@ -16,7 +16,7 @@
             android:orientation="vertical">
 
 
-            <com.constore.layout.ExpandableHeightGridView
+            <com.chenshop.layout.ExpandableHeightGridView
                 android:id="@+id/gridview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

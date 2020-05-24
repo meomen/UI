@@ -75,7 +75,7 @@
             android:layout_gravity="center"
             android:orientation="horizontal">
 
-            <com.constore.customfonts.MyTextView
+            <com.chenshop.customfonts.MyTextView
                 android:id="@+id/btn_buy_now"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

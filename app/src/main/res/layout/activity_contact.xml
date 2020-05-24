@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.constore.view.activity.ContactActivity">
+    tools:context="com.chenshop.view.activity.ContactActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -353,7 +353,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom">
 
-        <com.constore.customfonts.MyTextView
+        <com.chenshop.customfonts.MyTextView
             android:id="@+id/btn_logout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

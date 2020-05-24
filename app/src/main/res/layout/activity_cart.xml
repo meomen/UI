@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.constore.view.activity.CartActivity">
+    tools:context="com.chenshop.view.activity.CartActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -63,7 +63,7 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
-            <com.constore.customfonts.MyTextView
+            <com.chenshop.customfonts.MyTextView
                 android:id="@+id/clear_cart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

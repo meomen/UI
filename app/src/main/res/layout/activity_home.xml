@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.constore.view.activity.HomeActivity">
+    tools:context="com.chenshop.view.activity.HomeActivity">
 
 
     <ScrollView
@@ -20,7 +20,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.constore.layout.SliderLayout
+            <com.chenshop.layout.SliderLayout
                 android:id="@+id/slider"
                 style="@style/AlertDialog.AppCompat.Light"
                 android:layout_width="match_parent"
@@ -31,9 +31,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:background="@drawable/groominglayer" />
-            </com.constore.layout.SliderLayout>
+            </com.chenshop.layout.SliderLayout>
 
-            <com.constore.layout.ExpandableHeightGridView
+            <com.chenshop.layout.ExpandableHeightGridView
                 android:id="@+id/gridview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
